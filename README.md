@@ -12,5 +12,6 @@ This project takes tomcat 10.1.23 zip and expands on it to provide the following
 - Setup for psi probe
 - And if you want, drop back in tomcat wars and those are pre-configured as well but intentionally left out
 
-note: Credential usage here is simply for testing purposes only and should be considered exposed.
-note: Tomcat 10.0 was not created for psi-probe as jakarta work never finished during that time and it since went end of life.  So tomcat 10 servers as 10.1 line only.
+## Notes ##
+- Credential usage here is simply for testing purposes only and should be considered exposed.
+- Tomcat 10.0 was not created for psi-probe as jakarta work never finished during that time and it since went end of life.  So tomcat 10 servers as 10.1 line only.
