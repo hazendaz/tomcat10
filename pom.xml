@@ -83,7 +83,7 @@
         <el-impl.version>4.0.2</el-impl.version>
         <interceptor.version>1.2.5</interceptor.version>
         <jms.version>3.1.0</jms.version>
-        <mail.version>1.6.7</mail.version>
+        <mail.version>2.0.1</mail.version>
         <migration.version>1.0.8</migration.version>
         <persistence.version>3.1.0</persistence.version>
         <resource.version>1.7.4</resource.version>
