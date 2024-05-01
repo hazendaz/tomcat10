@@ -81,7 +81,7 @@
         <ejb.version>3.2.6</ejb.version>
         <el-api.version>3.0.3</el-api.version>
         <el-impl.version>4.0.2</el-impl.version>
-        <interceptor.version>1.2.5</interceptor.version>
+        <interceptor.version>2.2.0</interceptor.version>
         <jms.version>3.1.0</jms.version>
         <mail.version>1.6.7</mail.version>
         <migration.version>1.0.8</migration.version>
