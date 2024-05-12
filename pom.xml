@@ -186,6 +186,12 @@
             <scope>compile</scope>
         </dependency>
         <dependency>
+            <groupId>jakarta.websocket</groupId>
+            <artifactId>jakarta.websocket-client-api</artifactId>
+            <version>${websocket.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
             <groupId>jakarta.persistence</groupId>
             <artifactId>jakarta.persistence-api</artifactId>
             <version>${persistence.version}</version>

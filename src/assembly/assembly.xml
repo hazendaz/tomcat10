@@ -178,20 +178,22 @@
         <!-- Grap Lib Dependencies -->
         <dependencySet>
             <includes>
+                <include>*:angus-activation</include>
+                <include>*:angus-mail</include>
                 <include>*:ecj</include>
+                <include>*:expressly</include>
                 <include>*:jakarta.activation-api</include>
-                <include>*:jakarta.activation</include>
                 <include>*:jakarta.annotation-api</include>
                 <include>*:jakarta.ejb-api</include>
                 <include>*:jakarta.el-api</include>
-                <include>*:jakarta.el</include>
                 <include>*:jakarta.interceptor-api</include>
                 <include>*:jakarta.jms-api</include>
-                <include>*:jakarta.mail</include>
+                <include>*:jakarta.mail-api</include>
                 <include>*:jakarta.persistence-api</include>
                 <include>*:jakarta.resource-api</include>
                 <include>*:jakarta.transaction-api</include>
                 <include>*:jakarta.websocket-api</include>
+                <include>*:jakarta.websocket-client-api</include>
                 <include>*:logback-access</include>
                 <include>*:logback-core</include>
 
