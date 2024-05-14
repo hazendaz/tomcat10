@@ -70,7 +70,7 @@
         <ecj.version>3.33.0</ecj.version>
         <logback.version>1.4.14</logback.version>
         <tomcat.version>10.1.24</tomcat.version>
-        <tomcat-slf4j-logback.version>10.1.23</tomcat-slf4j-logback.version>
+        <tomcat-slf4j-logback.version>10.1.24</tomcat-slf4j-logback.version>
 
         <!-- Psi Probe Tomcat Manager -->
         <psi-probe.version>5.0.0</psi-probe.version>
