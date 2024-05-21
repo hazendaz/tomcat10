@@ -86,7 +86,7 @@
         <interceptor.version>2.2.0</interceptor.version>
         <jms.version>3.1.0</jms.version>
         <migration.version>1.0.8</migration.version>
-        <persistence.version>3.1.0</persistence.version>
+        <persistence.version>3.2.0</persistence.version>
         <resource.version>2.1.0</resource.version>
         <transaction.version>2.0.1</transaction.version>
         <websocket.version>2.1.1</websocket.version>
