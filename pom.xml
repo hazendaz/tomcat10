@@ -89,7 +89,7 @@
         <persistence.version>3.1.0</persistence.version>
         <resource.version>2.1.0</resource.version>
         <transaction.version>2.0.1</transaction.version>
-        <websocket.version>2.1.1</websocket.version>
+        <websocket.version>2.2.0</websocket.version>
 
         <!-- Metro (include in tomcat for java 8 or lower -->
         <metro.version>4.0.3</metro.version>
