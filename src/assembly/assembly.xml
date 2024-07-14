@@ -178,6 +178,8 @@
         <!-- Grap Lib Dependencies -->
         <dependencySet>
             <includes>
+                <include>ch.qos.logback.access:common</include>
+                <include>ch.qos.logback.access:tomcat</include>
                 <include>*:angus-activation</include>
                 <include>*:angus-mail</include>
                 <include>*:ecj</include>
@@ -194,7 +196,6 @@
                 <include>*:jakarta.transaction-api</include>
                 <include>*:jakarta.websocket-api</include>
                 <include>*:jakarta.websocket-client-api</include>
-                <include>*:logback-access</include>
                 <include>*:logback-core</include>
             </includes>
             <outputDirectory>lib</outputDirectory>

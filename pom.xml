@@ -68,7 +68,8 @@
         <!-- Standard Dependencies -->
         <commons-daemon.version>1.4.0</commons-daemon.version>
         <ecj.version>3.33.0</ecj.version>
-        <logback.version>1.4.14</logback.version>
+        <logback.version>1.5.6</logback.version>
+        <logback-access.version>2.0.2</logback-access.version>
         <tomcat.version>10.1.26</tomcat.version>
         <tomcat-config.version>10.1.26</tomcat-config.version>
         <tomcat-slf4j-logback.version>10.1.24</tomcat-slf4j-logback.version>
@@ -222,9 +223,9 @@
 
         <!-- Logging -->
         <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-access</artifactId>
-            <version>${logback.version}</version>
+            <groupId>ch.qos.logback.access</groupId>
+            <artifactId>tomcat</artifactId>
+            <version>${logback-access.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
