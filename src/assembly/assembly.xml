@@ -196,9 +196,6 @@
                 <include>*:jakarta.websocket-client-api</include>
                 <include>*:logback-access</include>
                 <include>*:logback-core</include>
-
-                <include>*:webservices-api</include>
-                <include>*:webservices-rt</include>
             </includes>
             <outputDirectory>lib</outputDirectory>
             <unpack>false</unpack>
