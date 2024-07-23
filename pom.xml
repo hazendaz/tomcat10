@@ -270,6 +270,12 @@
         </dependency>
         <dependency>
             <groupId>org.apache.tomcat</groupId>
+            <artifactId>tomcat-coyote-ffm</artifactId>
+            <version>${tomcat.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-dbcp</artifactId>
             <version>${tomcat.version}</version>
             <scope>compile</scope>
@@ -346,7 +352,7 @@
                         <enforceBytecodeVersion>
                             <excludes>
                                 <!-- Openssl contains panama for jdk 22 or higher if enabled via listener 'org.apache.catalina.core.OpenSSLLifecycleListener' -->
-                                <exclude>org.apache.tomcat:tomcat-coyote</exclude>
+                                <exclude>org.apache.tomcat:tomcat-coyote-ffm</exclude>
                             </excludes>
                         </enforceBytecodeVersion>
                     </rules>
