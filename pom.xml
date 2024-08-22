@@ -45,8 +45,8 @@
     <scm>
         <connection>scm:git:ssh://git@github.com/hazendaz/tomcat10.git</connection>
         <developerConnection>scm:git:ssh://git@github.com/hazendaz/tomcat10.git</developerConnection>
-        <url>https://github.com/hazendaz/tomcat10</url>
         <tag>HEAD</tag>
+        <url>https://github.com/hazendaz/tomcat10</url>
     </scm>
     <distributionManagement>
         <site>
@@ -115,9 +115,9 @@
             <groupId>commons-daemon</groupId>
             <artifactId>commons-daemon</artifactId>
             <version>${commons-daemon.version}</version>
-            <scope>runtime</scope>
-            <type>tar.gz</type>
             <classifier>native-src</classifier>
+            <type>tar.gz</type>
+            <scope>runtime</scope>
         </dependency>
         <dependency>
             <groupId>com.github.tomcat-slf4j-logback</groupId>
@@ -209,8 +209,8 @@
             <groupId>org.apache.tomcat</groupId>
             <artifactId>jakartaee-migration</artifactId>
             <version>${migration.version}</version>
-            <scope>compile</scope>
             <classifier>shaded</classifier>
+            <scope>compile</scope>
         </dependency>
 
         <!-- ECJ Libs -->
@@ -334,8 +334,8 @@
             <groupId>com.github.psi-probe</groupId>
             <artifactId>psi-probe-web</artifactId>
             <version>${psi-probe.version}</version>
-            <scope>compile</scope>
             <type>war</type>
+            <scope>compile</scope>
         </dependency>
 
     </dependencies>
@@ -400,10 +400,10 @@
                 <executions>
                     <execution>
                         <id>make-assembly</id>
-                        <phase>package</phase>
                         <goals>
                             <goal>single</goal>
                         </goals>
+                        <phase>package</phase>
                     </execution>
                 </executions>
             </plugin>
