@@ -178,8 +178,8 @@
         <!-- Grap Lib Dependencies -->
         <dependencySet>
             <includes>
-                <include>ch.qos.logback.access:common</include>
-                <include>ch.qos.logback.access:tomcat</include>
+                <include>ch.qos.logback.access:logback-access-common</include>
+                <include>ch.qos.logback.access:logback-access-tomcat</include>
                 <include>*:angus-activation</include>
                 <include>*:angus-mail</include>
                 <include>*:ecj</include>
