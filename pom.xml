@@ -72,7 +72,7 @@
         <logback-access.version>2.0.6</logback-access.version>
         <tomcat.version>10.1.40</tomcat.version>
         <tomcat-config.version>10.1.39</tomcat-config.version>
-        <tomcat-slf4j-logback.version>10.1.39</tomcat-slf4j-logback.version>
+        <tomcat-slf4j-logback.version>10.1.40</tomcat-slf4j-logback.version>
 
         <!-- Psi Probe Tomcat Manager -->
         <psi-probe.version>5.1.1</psi-probe.version>
