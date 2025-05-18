@@ -27,7 +27,7 @@
 
     <groupId>com.github.hazendaz.tomcat</groupId>
     <artifactId>tomcat10</artifactId>
-    <version>10.1.36.0-SNAPSHOT</version>
+    <version>10.1.41.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>tomcat10</name>
