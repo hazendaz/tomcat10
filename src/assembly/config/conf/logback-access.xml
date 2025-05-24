@@ -17,7 +17,7 @@
     <appender name="ACCESS-LOG" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>${catalina.base}/logs/localhost-access.log</file>
         <append>true</append>
-        <encoder class="ch.qos.logback.access.PatternLayoutEncoder">
+        <encoder class="ch.qos.logback.access.common.PatternLayoutEncoder">
             <charset>utf-8</charset>
             <pattern>common</pattern>
         </encoder>
