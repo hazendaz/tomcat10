@@ -78,7 +78,7 @@
         <psi-probe.version>5.3.0</psi-probe.version>
 
         <!-- Java EE Api Versions -->
-        <angus-activation.version>2.0.2</angus-activation.version>
+        <angus-activation.version>2.0.3</angus-activation.version>
         <angus-mail.version>2.0.4</angus-mail.version>
         <activation.version>2.1.4</activation.version>
         <annotation.version>2.1.1</annotation.version>
