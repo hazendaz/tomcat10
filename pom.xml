@@ -87,7 +87,7 @@
         <expressly.version>5.0.0</expressly.version>
         <interceptor.version>2.2.0</interceptor.version>
         <jms.version>3.1.0</jms.version>
-        <migration.version>1.0.9</migration.version>
+        <migration.version>1.0.10</migration.version>
         <persistence.version>3.1.0</persistence.version>
         <resource.version>2.1.0</resource.version>
         <transaction.version>2.0.1</transaction.version>
