@@ -68,8 +68,8 @@
         <!-- Standard Dependencies -->
         <commons-daemon.version>1.5.1</commons-daemon.version>
         <ecj.version>3.33.0</ecj.version>
-        <logback.version>1.5.25</logback.version>
-        <logback-access.version>2.0.8</logback-access.version>
+        <logback.version>1.5.26</logback.version>
+        <logback-access.version>2.0.9</logback-access.version>
         <tomcat.version>10.1.50</tomcat.version>
         <tomcat-config.version>10.1.50</tomcat-config.version>
         <tomcat-slf4j-logback.version>10.1.50</tomcat-slf4j-logback.version>
