@@ -87,7 +87,7 @@
         <websocket.version>2.2.0</websocket.version>
 
         <!-- Metro -->
-        <metro.version>4.0.5</metro.version>
+        <metro.version>4.0.6</metro.version>
 
         <!-- Automatic Module Name -->
         <module.name>com.github.hazendaz.tomcat</module.name>
