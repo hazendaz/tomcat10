@@ -14,7 +14,7 @@
     <parent>
         <groupId>com.github.hazendaz</groupId>
         <artifactId>base-parent</artifactId>
-        <version>57</version>
+        <version>58</version>
         <relativePath />
     </parent>
 
@@ -74,7 +74,11 @@
         <angus-activation.version>2.0.3</angus-activation.version>
         <angus-mail.version>2.0.5</angus-mail.version>
         <activation.version>2.1.4</activation.version>
-        <annotation.version>2.1.1</annotation.version>
+        <annotation.version>3.0.0</annotation.version>
+        <commons-codec.version>1.19.0</commons-codec.version>
+        <commons-io.version>2.21.0</commons-io.version>
+        <commons-lang3.version>3.19.0</commons-lang3.version>
+        <woodstox.version>7.1.1</woodstox.version>
         <ejb.version>4.0.1</ejb.version>
         <el-api.version>5.0.1</el-api.version>
         <expressly.version>5.0.0</expressly.version>
@@ -95,6 +99,47 @@
         <!-- Reproducible Builds -->
         <project.build.outputTimestamp>1711245736</project.build.outputTimestamp>
     </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <!-- Convergence fixes: pin transitive dependency versions -->
+            <dependency>
+                <groupId>jakarta.annotation</groupId>
+                <artifactId>jakarta.annotation-api</artifactId>
+                <version>${annotation.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-codec</groupId>
+                <artifactId>commons-codec</artifactId>
+                <version>${commons-codec.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-io</groupId>
+                <artifactId>commons-io</artifactId>
+                <version>${commons-io.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>${commons-lang3.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>jakarta.el</groupId>
+                <artifactId>jakarta.el-api</artifactId>
+                <version>${el-api.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>jakarta.transaction</groupId>
+                <artifactId>jakarta.transaction-api</artifactId>
+                <version>${transaction.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.woodstox</groupId>
+                <artifactId>woodstox-core</artifactId>
+                <version>${woodstox.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <dependencies>
         <!-- Tomcat Bin including slf4j/logback (bootstrap no longer in maven central) -->
@@ -153,7 +198,6 @@
         <dependency>
             <groupId>jakarta.el</groupId>
             <artifactId>jakarta.el-api</artifactId>
-            <version>${el-api.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -171,7 +215,6 @@
         <dependency>
             <groupId>jakarta.transaction</groupId>
             <artifactId>jakarta.transaction-api</artifactId>
-            <version>${transaction.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
