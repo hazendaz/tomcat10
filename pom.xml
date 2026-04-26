@@ -76,7 +76,7 @@
         <activation.version>2.1.4</activation.version>
         <annotation.version>3.0.0</annotation.version>
         <commons-codec.version>1.22.0</commons-codec.version>
-        <commons-io.version>2.21.0</commons-io.version>
+        <commons-io.version>2.22.0</commons-io.version>
         <commons-lang3.version>3.20.0</commons-lang3.version>
         <woodstox.version>7.1.1</woodstox.version>
         <ejb.version>4.0.1</ejb.version>
