@@ -78,7 +78,8 @@
         <commons-codec.version>1.22.0</commons-codec.version>
         <commons-io.version>2.22.0</commons-io.version>
         <commons-lang3.version>3.20.0</commons-lang3.version>
-        <woodstox.version>7.1.1</woodstox.version>
+        <stax2-api.version>4.3.0</stax2-api.version>
+        <woodstox.version>7.2.0</woodstox.version>
         <ejb.version>4.0.1</ejb.version>
         <el-api.version>5.0.1</el-api.version>
         <expressly.version>5.0.0</expressly.version>
@@ -137,6 +138,11 @@
                 <groupId>com.fasterxml.woodstox</groupId>
                 <artifactId>woodstox-core</artifactId>
                 <version>${woodstox.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.codehaus.woodstox</groupId>
+                <artifactId>stax2-api</artifactId>
+                <version>${stax2-api.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
