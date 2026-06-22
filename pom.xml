@@ -82,7 +82,7 @@
         <woodstox.version>7.2.1</woodstox.version>
         <ejb.version>4.0.1</ejb.version>
         <el-api.version>5.0.1</el-api.version>
-        <expressly.version>5.0.0</expressly.version>
+        <expressly.version>6.0.0</expressly.version>
         <interceptor.version>2.2.0</interceptor.version>
         <jms.version>3.1.0</jms.version>
         <migration.version>1.0.12</migration.version>
