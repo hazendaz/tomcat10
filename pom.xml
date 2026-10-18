@@ -20,7 +20,7 @@
 
     <groupId>com.github.hazendaz.tomcat</groupId>
     <artifactId>tomcat10</artifactId>
-    <version>10.1.55.0-SNAPSHOT</version>
+    <version>10.1.61.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>tomcat10</name>
@@ -51,9 +51,9 @@
 
     <properties>
         <!-- JDK Compilation/Runtime Level -->
-        <java.version>11</java.version>
-        <java.release.version>11</java.release.version>
-        <javadoc.java.release.version>11</javadoc.java.release.version>
+        <java.version>17</java.version>
+        <java.release.version>17</java.release.version>
+        <javadoc.java.release.version>17</javadoc.java.release.version>
 
         <!-- Project Final Name -->
         <project.environment>apache-tomcat</project.environment>
@@ -148,6 +148,11 @@
                 <groupId>ch.qos.logback</groupId>
                 <artifactId>logback-core</artifactId>
                 <version>${logback.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.eclipse.jdt</groupId>
+                <artifactId>ecj</artifactId>
+                <version>${ecj.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -264,7 +269,6 @@
         <dependency>
             <groupId>org.eclipse.jdt</groupId>
             <artifactId>ecj</artifactId>
-            <version>${ecj.version}</version>
             <scope>compile</scope>
         </dependency>
 
@@ -278,7 +282,6 @@
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-core</artifactId>
-            <version>${logback.version}</version>
             <scope>compile</scope>
         </dependency>
 
